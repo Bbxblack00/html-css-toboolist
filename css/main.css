@@ -1,0 +1,109 @@
+/* settaggi generali */
+
+body{
+  background: rgb(245, 245, 245);
+}
+
+*{
+  font-family: 'Roboto', sans-serif;
+  text-align: left;
+}
+
+/* fonts */
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+/* estetica della testata */
+header{
+  background-color: white;
+  margin-bottom: 10px;
+  box-sizing: border-box;
+}
+
+#title{
+  font-size: 55px;
+  font-weight: bold;
+  padding: 7px;
+}
+
+
+/* parte del corpo */
+
+main{
+  margin: 10px 30%;
+  background-color: white;
+}
+
+section{
+  width: 900px;
+}
+
+#menù{
+  height: 55px;
+  border-bottom: 3px;
+  padding: 12px;
+}
+
+.tasto{
+  width: 65;
+  border-radius: 4px;
+  color: white;
+  padding: 5px;
+  box-sizing: border-box;
+
+}
+
+.tasto.Task{
+  background: lightblue;
+  border: 0;
+  color: gray;
+}
+
+.tasto.Selection{
+  border: 0;
+  color: gray;
+}
+
+/* spunte per impegni */
+
+.ok{
+  border-radius: 100%;
+  border: 1px solid green;
+  color: green;
+}
+
+.no{
+  border-radius: 100%;
+  border: 1px solid red;
+  color: red;
+}
+
+.Editorial{
+  background-color: lightblue;
+  border-radius: 16px;
+}
+
+.goals{
+  background-color: violet;
+  border-radius: 16px;
+}
+
+.Recruting{
+  background-color: green;
+  border-radius: 16px;
+}
+
+.Mobile{
+  background-color: orange;
+  border-radius: 16px;
+}
+
+.website{
+  background-color: pink;
+  border-radius: 16px;
+}
+
+.Sales{
+  background-color: lightgreen;
+  border-radius: 16px;
+}
